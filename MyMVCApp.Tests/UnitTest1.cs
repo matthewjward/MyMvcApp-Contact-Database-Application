@@ -27,7 +27,7 @@ namespace MyMvcApp.Tests
         [Fact]
         public void Index_ReturnsAViewResult_WithAListOfUsers()
         {
-            var result = _controller.Index();
+            var result = _controller.Index("");
 
             Assert.IsType<ViewResult>(result);
             var viewResult = result as ViewResult;
