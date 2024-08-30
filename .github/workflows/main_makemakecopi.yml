@@ -21,9 +21,6 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Change directory
-        run: cd MyMVCApp
-
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
@@ -34,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: \bin\Release\net8.0\publish\
+          path: \MyMvcApp-Contact-Database-Application\MyMVCApp\bin\Release\net8.0\publish\
 
   deploy:
     runs-on: windows-latest
