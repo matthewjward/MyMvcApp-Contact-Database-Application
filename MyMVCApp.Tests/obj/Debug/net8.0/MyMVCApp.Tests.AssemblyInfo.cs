@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyMVCApp.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d01f751434578b90b46ac6a982a5e25b6438a06a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4291b62c21ccb8246d74635b56ce2904fb152a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyMVCApp.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyMVCApp.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
