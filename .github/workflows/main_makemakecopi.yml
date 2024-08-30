@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: \MyMvcApp-Contact-Database-Application\MyMVCApp\bin\Release\net8.0\publish\
+          path: D:\a\MyMvcApp-Contact-Database-Application\MyMvcApp-Contact-Database-Application\MyMVCApp\bin\Release\net8.0\publish\
 
   deploy:
     runs-on: windows-latest
